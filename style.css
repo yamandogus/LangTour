@@ -2,9 +2,12 @@
     background-color:#212529 !important;
 }
 
-
+header{
+    height: 500px;
+}
 .navbar-brand{
-    color: white;
+    color: white!important;
+    margin-bottom: 10px;
 }
 
 .navbar-brand:hover{
@@ -21,13 +24,15 @@
 }
   
 .nav-link{
-    color: white!important ;
+    color: rgb(175, 174, 174)!important ;
 }
 
 .head_b{
+
+    font-size: 3rem!important;
+    font-weight: bolder;
     
-    font-size: 2.5rem!important;
-    font-weight: bolder!important;
+    
 }
 
 .navbar-toggler-icon{
@@ -96,4 +101,23 @@
     box-sizing: border-box;
 }
 
+.img-fluid{
+    height: 450px;
+    width: 700px;
+    margin-right: 40px;
+    padding-bottom: 70px;
+}
+
+header{
+    height: 575px;
+}
+
+.more_and{
+    margin-bottom: 80px;
+}
+
+.rounded-circle{
+    width: 40px;
+    height: 40px;
+}
 
