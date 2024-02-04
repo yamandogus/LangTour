@@ -121,3 +121,7 @@ header{
     height: 40px;
 }
 
+.image_card{
+    margin-top: -150px!important;
+    margin-bottom: 70px!important;
+}
