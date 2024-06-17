@@ -1,128 +1,155 @@
-.navbar{
-    background-color:#212529 !important;
-    /* background-color: #5D4E6D!important; */
+.navbar {
+  background-color: #212529 !important;
+  border-bottom: 1px solid white;
 }
 
-/* header{
-    height: 500px;
-} */
-.navbar-brand{
-    color: white!important;
-    margin-bottom: 10px;
+.navbar-brand {
+  color: white !important;
+  margin-bottom: 10px;
 }
 
-.navbar-brand:hover{
-    color: white;
+.navbar-brand:hover {
+  color: white;
 }
 
-
-.navbar-nav{
-    justify-content: flex-end!important;
+.navbar-nav {
+  justify-content: flex-end !important;
 }
 
 .navbar-nav .nav-item {
-    padding-left: 1rem;
+  padding-left: 1rem;
+}
+
+.nav-link {
+  color: rgb(175, 174, 174) !important ;
+}
+
+.head_b {
+  font-size: 3rem !important;
+  font-weight: bolder;
+}
+
+#home-bootstrap {
+  font-family: 'Lobster', sans-serif;
+  font-weight: bolder;
+}
+#home-bootstrap::before {
+    content: "🥥";    
+  }
+
+#home-bootstrap span{
+    font-family: "Kaushan Script", sans-serif;
+    font-weight: bolder;
+    color:rgb(73, 192, 248);
 }
   
-.nav-link{
-    color: rgb(175, 174, 174)!important ;
+
+.navbar-toggler-icon {
+  filter: invert(1);
 }
 
-.head_b{
-
-    font-size: 3rem!important;
-    font-weight: bolder;
-    
-    
+.navbar-toggler {
+  border: solid 0.1px;
+  color: #949697;
 }
 
-.navbar-toggler-icon{
-    filter: invert(1);
-}
-
-.navbar-toggler{
-    border: solid 0.10px;
-    color: #949697;
-}
-
-.card{
+.card {
   box-shadow: 5px 5px 5px rgb(241, 237, 237);
 }
 
-.lead{
-    font-weight: 50;
-    color: rgba(255,255,255,.5)!important;
-    font-weight: 400!important;
-    margin-bottom: 1.5rem!important;
-    font-size: 1.25rem;
+.nav-item a {
+  font-weight: bolder;
 }
 
-
-@media (min-width: 1400px){
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1320px;
-    }
+.nav-item a:hover {
+  color: rgb(73, 192, 248) !important;
 }
 
-.image_card{
-    padding-right: 1.5rem!important;
-    padding-left: 3rem!important;
+.lead {
+  font-weight: 50;
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-weight: 400 !important;
+  margin-bottom: 1.5rem !important;
+  font-size: 1.25rem;
 }
 
-.feature{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 3rem;
-    width: 3rem;
-    font-size: 1.5rem;
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+  }
+}
+
+.image_card {
+  padding-right: 1.5rem !important;
+  padding-left: 3rem !important;
+}
+
+.feature {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.5rem;
 }
 .card-img-top {
-    object-fit: cover;
-    
-  }
-
-.fst-italic{
-    font-style: italic!important;
-    font-size: 1.275rem;
-    text-align: center!important;
-    display: block;
-    margin-bottom: 1.5rem!important;
-}
-.aside_style{
-    border-radius: 10px;
+  object-fit: cover;
 }
 
-.fthr_style{
-    padding-top: 1.5rem!important;
-    padding-bottom: 1.5rem!important;
+.fst-italic {
+  font-style: italic !important;
+  font-size: 1.275rem;
+  text-align: center !important;
+  display: block;
+  margin-bottom: 1.5rem !important;
+}
+.aside_style {
+  border-radius: 10px;
 }
 
-*, ::after, ::before {
-    box-sizing: border-box;
+.fthr_style {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
 }
 
-/* .img-fluid{
-    height: 450px;
-    width: 700px;
-    margin-right: 40px;
-    padding-bottom: 70px;
-} */
-
-/* header{
-    height: 575px;
-} */
-
-.more_and{
-    margin-bottom: 80px;
+*,
+::after,
+::before {
+  box-sizing: border-box;
 }
 
-.rounded-circle{
-    width: 40px;
-    height: 40px;
+.more_and {
+  margin-bottom: 80px;
 }
 
-.image_card{
-    margin-top: -150px!important;
-    margin-bottom: 70px!important;
+.rounded-circle {
+  width: 40px;
+  height: 40px;
 }
+
+.image_card {
+  margin-top: -150px !important;
+  margin-bottom: 70px !important;
+}
+
+/************************************************************/
+
+/*about*/
+
+.about-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cho-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  text-align: center;
+}
+
