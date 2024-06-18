@@ -84,6 +84,14 @@
   }
 }
 
+@media (max-width: 578px) {
+  .nname{
+    display: none;
+  }
+}
+
+
+
 .image_card {
   padding-right: 1.5rem !important;
   padding-left: 3rem !important;
